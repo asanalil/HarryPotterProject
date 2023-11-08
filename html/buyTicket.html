@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/staff/title.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Buy ticket</title>
+</head>
+<body>
+<section class="main-container">
+
+    <!-- Header -->
+    <div class="header">
+        <nav class="header-nav">
+            <div class="logo"><img src="../img/staff/logo2.jfif" alt="logo"></div>
+            <div class="title">HOGWARTS <br><span>School of Witchcraft and Wizard</span></div>
+            <div class="user"><img id="logo" src="../img/staff/male.png" alt="user"></div>
+        </nav>
+    </div>
+    <!-- Navbar -->
+    <div class="sidebar-left">
+        <nav>
+            <ul>
+                <li class="nav-btn nav-home"><i class="fa-solid fa-house-chimney"></i><a href="index.html">Home</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-film"></i><a href="movies.html">Movies</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-user"></i><a href="characters.html">Characters</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-hat-wizard"></i><a href="getSorted.html">Get Sorted</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-sheet-plastic"></i><a href="test.html">Test</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-award"></i><a href="awards.html">Awards</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-shirt"></i><a href="merch.html">Merch</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-ticket"></i><a href="buyTicket.html">Buy Ticket</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="home-box">
+        <section id="ticket-selection" class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2>Have time to buy tickets!</h2>
+                    <form id="ticketSelectionForm">
+                        <div class="form-group">
+                            <label for="ticketType">Ticket Type:</label>
+                            <select class="form-control" id="ticketType" required>
+                                <option value="">Choose Ticket Type</option>
+                                <option value="child">Children - 7$</option>
+                                <option value="student">Student - 10$</option>
+                                <option value="adult">Adult - 13$</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ticketType">Movie:</label>
+                            <select class="form-control" id="movieSelect" required>
+                                <option value="">Choose a movie</option>
+                                <option value="sorcerers-stone">Harry Potter and the Sorcerer's Stone</option>
+                                <option value="chamber-of-secrets">Harry Potter and the Chamber of Secrets</option>
+                                <option value="prisoner-of-azkaban">Harry Potter and the Prisoner of Azkaban</option>
+                                <option value="goblet-of-fire">Harry Potter and the Goblet of Fire</option>
+                                <option value="order-of-the-phoenix">Harry Potter and the Order of the Phoenix</option>
+                                <option value="half-blood-prince">Harry Potter and the Half-Blood Prince</option>
+                                <option value="deathly-hallows-part-1">Harry Potter and the Deathly Hallows - Part 1</option>
+                                <option value="deathly-hallows-part-2">Harry Potter and the Deathly Hallows - Part 2</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Quantity of tickets:</label>
+                            <input type="number" class="form-control" id="quantity" min="1" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Buy Now</button>
+                    </form>
+                    <div id="countdown" class="mt-3"></div>
+                </div>
+            </div>
+
+            <div id="message" style="display: none;"></div>
+
+        </section>
+    </div>
+</section>
+<!-- JavaScript -->
+<script src="../js/ticket.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+</body>
+</html>

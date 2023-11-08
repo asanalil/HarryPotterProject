@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/staff/title.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Harry Potter Films - Movies</title>
+</head>
+<body>
+<section class="main-container">
+    <!-- Header -->
+    <div class="header">
+        <nav class="header-nav">
+            <div class="logo"><img src="../img/staff/logo2.jfif" alt="logo"></div>
+            <div class="title">HOGWARTS <br><span>School of Witchcraft and Wizard</span></div>
+            <div class="user"><img id="logo" src="../img/staff/male.png" alt="user"></div>
+        </nav>
+    </div>
+    <!-- Navbar -->
+    <div class="sidebar-left">
+        <nav>
+            <ul>
+                <li class="nav-btn nav-home"><i class="fa-solid fa-house-chimney"></i><a href="index.html">Home</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-film"></i><a href="movies.html">Movies</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-user"></i><a href="characters.html">Characters</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-hat-wizard"></i><a href="getSorted.html">Get Sorted</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-sheet-plastic"></i><a href="test.html">Test</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-award"></i><a href="awards.html">Awards</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-shirt"></i><a href="merch.html">Merch</a></li>
+                <li class="nav-btn"><i class="fa-solid fa-ticket"></i><a href="buyTicket.html">Buy Ticket</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Movie Containers with Modals -->
+    <div class="home-box">
+        <div id="m" class="container mt-4">
+            <div class="row">
+                <!-- Movie 1 -->
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="../img/movies/hp1.1280x720.jpg" class="card-img-top" alt="Movie 1 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter and the Sorcerer's Stone</h5>
+                            <p class="card-text">Year: 2001</p>
+                            <a href="#" class="custom-button" data-toggle="modal" data-target="#modal1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie 2 -->
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="../img/movies/hp2.jpg" class="card-img-top" alt="Movie 2 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter and the Chamber of Secrets</h5>
+                            <p class="card-text">Year: 2002</p>
+                            <a href="#" class="custom-button" data-toggle="modal" data-target="#modal2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Movie 3 -->
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="../img/movies/hp3.jpg" class="card-img-top" alt="Movie 3 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter and the Prisoner of Azkaban</h5>
+                            <p class="card-text">Year: 2004</p>
+                            <a href="#" class="custom-button" data-toggle="modal" data-target="#modal3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie 4 -->
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="../img/movies/hp4.jpg" class="card-img-top" alt="Movie 4 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter and the Goblet of Fire</h5>
+                            <p class="card-text">Year: 2005</p>
+                            <a href="#" class="custom-button" data-toggle="modal" data-target="#modal4">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Movie 5 -->
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="../img/movies/hp5.1.jpg" class="card-img-top" alt="Movie 5 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter and the Order of the Phoenix</h5>
+                            <p class="card-text">Year: 2007</p>
+                            <a href="#" class="custom-button" data-toggle="modal" data-target="#modal5">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie 6 -->
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="../img/movies/hp6.jpg" class="card-img-top" alt="Movie 6 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter and the Half-Blood Prince</h5>
+                            <p class="card-text">Year: 2009</p>
+                            <a href="#" class="custom-button" data-toggle="modal" data-target="#modal6">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Movie 7 -->
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="../img/movies/hp7.jpg" class="card-img-top" alt="Movie 7 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter and the Deathly Hallows - Part 1</h5>
+                            <p class="card-text">Year: 2010</p>
+                            <a href="#" class="custom-button" data-toggle="modal" data-target="#modal7">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie 8 -->
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="../img/movies/hp7.3.1920x1080.jpg" class="card-img-top" alt="Movie 8 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter and the Deathly Hallows - Part 2</h5>
+                            <p class="card-text">Year: 2011</p>
+                            <a href="#" class="custom-button" data-toggle="modal" data-target="#modal8">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Modals for Movie Descriptions -->
+            <!-- Movie 1 Modal -->
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal1Label">Harry Potter and the Sorcerer's Stone</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Harry Potter and the Sorcerer's Stone is the first film in the Harry Potter series. It was released in 2001 and is based on the novel by J.K. Rowling. The movie follows the adventures of a young wizard, Harry Potter, as he discovers his magical heritage and attends Hogwarts School of Witchcraft and Wizardry.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie 2 Modal -->
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal2Label">Harry Potter and the Chamber of Secrets</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Harry Potter and the Chamber of Secrets is the second film in the Harry Potter series. It was released in 2002 and continues the adventures of Harry Potter and his friends at Hogwarts. The film explores the mystery of the Chamber of Secrets and the dangers it holds.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 3 Modal -->
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal3Label">Harry Potter and the Prisoner of Azkaban</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Harry Potter and the Prisoner of Azkaban is the third film in the Harry Potter series. It was released in 2004 and is based on the novel by J.K. Rowling. The movie follows Harry's third year at Hogwarts and the escape of the dangerous prisoner Sirius Black.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Movie 4 Modal -->
+        <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal4Label">Harry Potter and the Goblet of Fire</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Harry Potter and the Goblet of Fire is the fourth film in the Harry Potter series. It was released in 2005 and is based on the novel by J.K. Rowling. The movie follows Harry's participation in the Triwizard Tournament and the return of the dark wizard Voldemort.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 5 Modal -->
+        <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal5Label">Harry Potter and the Order of the Phoenix</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Harry Potter and the Order of the Phoenix is the fifth film in the Harry Potter series. It was released in 2007 and is based on the novel by J.K. Rowling. The movie follows Harry's fifth year at Hogwarts and the formation of Dumbledore's Army to fight against the dark forces.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 6 Modal -->
+        <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal6Label">Harry Potter and the Half-Blood Prince</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Harry Potter and the Half-Blood Prince is the sixth film in the Harry Potter series. It was released in 2009 and is based on the novel by J.K. Rowling. The movie explores Harry's journey to uncover the past of Voldemort and the discovery of Horcruxes.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 7 Modal -->
+        <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal7Label">Harry Potter and the Deathly Hallows - Part 1</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Harry Potter and the Deathly Hallows - Part 1 is the seventh film in the Harry Potter series. It was released in 2010 and is based on the novel by J.K. Rowling. The movie follows Harry, Ron, and Hermione as they embark on a quest to find and destroy the Horcruxes.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 8 Modal -->
+        <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal8Label">Harry Potter and the Deathly Hallows - Part 2</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Harry Potter and the Deathly Hallows - Part 2 is the eighth and final film in the Harry Potter series. It was released in 2011 and concludes the epic battle between Harry and Voldemort, the final showdown at Hogwarts, and the resolution of the series.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- JavaScript -->
+<script src="../js/js.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
